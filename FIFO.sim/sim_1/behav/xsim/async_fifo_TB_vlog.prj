@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../../Desktop/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Advanced_concepts/Clock_domain_crossing/Assignment3_Support_Files/Lab1_corrected/fifo_mem.sv" \
+"../../../../../../../../Desktop/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Advanced_concepts/Clock_domain_crossing/Assignment3_Support_Files/Lab1_corrected/rptr_handler.sv" \
+"../../../../../../../../Desktop/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Advanced_concepts/Clock_domain_crossing/Assignment3_Support_Files/Lab1_corrected/synchronizer_cdc.sv" \
+"../../../../../../../../Desktop/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Advanced_concepts/Clock_domain_crossing/Assignment3_Support_Files/Lab1_corrected/top.sv" \
+"../../../../../../../../Desktop/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Advanced_concepts/Clock_domain_crossing/Assignment3_Support_Files/Lab1_corrected/wptr_handler.sv" \
+"../../../../../../../../Desktop/My Folder/university/7 th semi/EE587-Digital/Isuru Sir/Advanced_concepts/Clock_domain_crossing/Assignment3_Support_Files/Lab1_corrected/tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
